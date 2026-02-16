@@ -12,15 +12,8 @@ priority: medium
 _No Business_Goals.md found. Add one to guide post generation._
 
 ## Post Content
-## Post Content
-Today I’m demonstrating how an AI Employee can manage real business workflows.
-
-From file triage to social media posting, this system shows how human-in-the-loop AI can automate operations while keeping control with the user.
-
-This isn’t just a chatbot — it’s an operational AI.
-
-What business task would you automate first?
-
+<!-- Claude will fill this in when processing via orchestrator -->
+<!-- Replace this section with your post text before approving -->
 
 _Draft pending: Run the orchestrator or use /draft-linkedin-post to generate content._
 
