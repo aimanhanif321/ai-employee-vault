@@ -1,9 +1,0 @@
----
-action: facebook_post
-status: pending_approval
-zone: local
----
-
-# Test Facebook Post
-
-Content: Hello from AI Employee ??
