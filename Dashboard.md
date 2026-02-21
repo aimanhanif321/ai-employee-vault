@@ -1,7 +1,7 @@
 ---
-last_updated: 2026-02-13T07:23:00+00:00
+last_updated: 2026-02-21T20:39:50.197112+00:00
 version: 0.4.0
-zone: local
+zone: cloud
 ---
 
 # AI Employee Dashboard
@@ -9,37 +9,22 @@ zone: local
 ## System Status
 | Component | Status | Last Check |
 |-----------|--------|------------|
-| Zone | **local** | 2026-02-13 |
-| File Watcher | Offline | 2026-02-13 |
-| Gmail Watcher | Offline | 2026-02-13 |
-| Orchestrator | Manual (Claude Code) | 2026-02-13 |
-| Scheduler | Offline | 2026-02-13 |
-| Odoo (Accounting) | Online (http://ai-employee-odoo.eastus.azurecontainer.io:8069) | 2026-02-13 |
-
-## Folder Counts
-| Folder | Items |
-|--------|-------|
-| Inbox | 6 |
-| Needs_Action | 0 |
-| In_Progress | 0 |
-| Done | 23 |
-| Pending_Approval | 0 |
-| Approved | 0 |
-| Rejected | 0 |
-| Logs | 4 |
-| Briefings | 0 |
-| Plans | 0 |
+| Zone | **cloud** | 2026-02-21T20:39:50.197112+00:00 |
+| File Watcher | Check manually | 2026-02-21T20:39:50.197112+00:00 |
+| Gmail Watcher | Check manually | 2026-02-21T20:39:50.197112+00:00 |
+| Orchestrator | Active | 2026-02-21T20:39:50.197112+00:00 |
+| Scheduler | Check manually | 2026-02-21T20:39:50.197112+00:00 |
+| Odoo (Accounting) | Configured (http://ai-employee-odoo.eastus.azurecontainer.io:8069) | 2026-02-21T20:39:50.197112+00:00 |
 
 ## Inbox Summary
-- **Inbox (unprocessed)**: 6
 - **Pending Actions**: 0
 - **In Progress**: 0
-- **Total Completed**: 23
+- **Completed Today**: 1
 
 ## Approval Queue
-- **Pending Approval**: 0
+- **Pending Approval**: 4
+- **Social Media Drafts Pending**: 2
 - **Approved (ready)**: 0
-- **Rejected**: 0
 - **Active Plans**: 0
 
 ## Quick Links
@@ -52,9 +37,5 @@ zone: local
 - [[Logs/]] - Audit trail
 - [[Briefings/]] - Daily & weekly summaries
 
-## Recent Activity (2026-02-13)
-- Health check completed — all Azure services online
-- **Azure VM**: `20.64.238.101` — Running (cloud zone, vault_ok: true)
-- **Odoo ACI**: `20.121.230.232` — Online, responding on :8069
-- **Neon DB**: Configured (eastus2)
-- Previous DNS issue (Feb 12) resolved — was local network, not Azure
+## Recent Activity
+_Updated automatically by Orchestrator_
