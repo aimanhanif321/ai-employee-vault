@@ -3,6 +3,7 @@ action: linkedin_post
 source_task: TASK_whatsapp_test.md
 priority: high
 created: 2026-02-22T01:40:00Z
+zone:local
 ---
 
 # LinkedIn Post Draft - AI Employee Approval System
